@@ -1,0 +1,99 @@
+---
+booktitle: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced
+  Domains: Theory and Applications'
+shortname: LIDTA
+sections:
+- name: Preface
+  title: Preface
+- name: Long Papers
+  title: Long Papers
+- name: Short Papers
+  title: Short Papers
+year: '2022'
+volume: '183'
+start: 2022-09-23
+end: 2022-09-23
+published: 2022-10-08
+url: https://proceedings.mlr.press
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: LIDTA2022
+month: 0
+cycles: false
+bibtex_editor: Moniz, Nuno and Branco, Paula and Torgo, Lu\'{i}s and Japkowicz, Nathalie
+  and Wozniak, Michal and Wang, Shuo
+editor:
+- given: Nuno
+  family: Moniz
+- given: Paula
+  family: Branco
+- given: Luís
+  family: Torgo
+- given: Nathalie
+  family: Japkowicz
+- given: Michal
+  family: Wozniak
+- given: Shuo
+  family: Wang
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Fourth International Workshop on Learning with Imbalanced Domains: Theory and Applications
+    Held in ECML-PKDD, Grenoble, France on 23 September 2022
+
+  Published as Volume 183 by the Proceedings of Machine Learning Research on 08 October 2022.
+
+  Volume Edited by:
+    Nuno Moniz
+    Paula Branco
+    Luís Torgo
+    Nathalie Japkowicz
+    Michal Wozniak
+    Shuo Wang
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 23 Sep
+author:
+  name: PMLR
+baseurl: "/v183"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v183
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v183
+email: ''
+conference:
+  name: 'Fourth International Workshop on Learning with Imbalanced Domains: Theory
+    and Applications'
+  url:
+  location: ECML-PKDD, Grenoble, France
+  dates:
+  - 2022-09-23
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v183/LIDTA22.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v183/LIDTA22.bib
