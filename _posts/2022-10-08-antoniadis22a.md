@@ -2,11 +2,11 @@
 title: Systematic Evaluation of CASH Search Strategies for Unsupervised Anomaly Detection
 booktitle: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced
   Domains: Theory and Applications (LIDTA 2022)'
-abstract: Anomaly detection is an important data mining task that aims to detect abnormal examples in a dataset. Dozens of unsupervised algorithms have been developed for this task, each of which can be finely controlled via multiple hyperparameters. Therefore, choosing an algorithm that works well for a new dataset has traditionally been a time-consuming trial-and-error process. Moreover, any ground-truth labels to guide this process are hard to come by in real-world anomaly detection problems.
+abstract: 'Anomaly detection is an important data mining task that aims to detect abnormal examples in a dataset. Dozens of unsupervised algorithms have been developed for this task, each of which can be finely controlled via multiple hyperparameters. Therefore, choosing an algorithm that works well for a new dataset has traditionally been a time-consuming trial-and-error process. Moreover, any ground-truth labels to guide this process are hard to come by in real-world anomaly detection problems.
 On the other hand, if we are able to collect a small, labeled validation set, we could leverage the AutoML paradigm to automate this model search.
 While the off-the-shelf AutoML search strategies for combined algorithm selection and hyperparameter optimization (CASH) are effective for supervised classification and regression tasks, they require the availability of plenty of ground-truth labels and large validation sets.
 It is unclear whether CASH will be equally effective for anomaly detection problems where the validation sets are typically small at best and not always representative of the test set at worst.
-In this paper, we present a discussion and experimental evaluation of how the structure of the validation set, i.e., its size and label bias, impacts the performance of different CASH search strategies within the context of anomaly detection.
+In this paper, we present a discussion and experimental evaluation of how the structure of the validation set, i.e., its size and label bias, impacts the performance of different CASH search strategies within the context of anomaly detection.'
 year: '2022'
 section: Long Papers
 volume: '183'
