@@ -3,6 +3,7 @@ title: Performance and model complexity on imbalanced datasets using resampling 
   cost-sensitive algorithms
 booktitle: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced
   Domains: Theory and Applications (LIDTA 2022)'
+abstract: Imbalanced datasets occur across industries, and many applications with high economical interest deal with them, such as fraud detection and churn prediction. Resampling is commonly used to overcome the tendency of machine learning algorithms to favor the majority class error minimization, while cost-sensitive algorithms are less used. In this paper, cost-sensitive algorithms (BayesMinimumRisk, Thresholding, Cost-Sensitive Decision Tree and Cost-Sensitive Random Forest) and resampling techniques (SMOTE, SMOTETomek and TomekLinks) combined with kNN, Decision Tree, Random Forest and AdaBoost were compared on binary classification problems. The results were analyzed with respect to relative performance over different imbalance ratios. The influence of these techniques for handling the class imbalance on the machine learning models complexities was also investigated. The experiments were performed using synthetic datasets and 90 real-world datasets.
 year: '2022'
 section: Long Papers
 volume: '183'
