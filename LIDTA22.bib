@@ -50,7 +50,12 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/antoniadis22a/antoniadis22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/antoniadis22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/antoniadis22a.html},
+  abstract = {Anomaly detection is an important data mining task that aims to detect abnormal examples in a dataset. Dozens of unsupervised algorithms have been developed for this task, each of which can be finely controlled via multiple hyperparameters. Therefore, choosing an algorithm that works well for a new dataset has traditionally been a time-consuming trial-and-error process. Moreover, any ground-truth labels to guide this process are hard to come by in real-world anomaly detection problems.
+On the other hand, if we are able to collect a small, labeled validation set, we could leverage the AutoML paradigm to automate this model search.
+While the off-the-shelf AutoML search strategies for combined algorithm selection and hyperparameter optimization (CASH) are effective for supervised classification and regression tasks, they require the availability of plenty of ground-truth labels and large validation sets.
+It is unclear whether CASH will be equally effective for anomaly detection problems where the validation sets are typically small at best and not always representative of the test set at worst.
+In this paper, we present a discussion and experimental evaluation of how the structure of the validation set, i.e., its size and label bias, impacts the performance of different CASH search strategies within the context of anomaly detection.}
 }
 
 
@@ -69,7 +74,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/block22a/block22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/block22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/block22a.html},
+  abstract = {Propensity weighting enables learning from positive and unlabeled data (PU learning) in the face of labeling bias. PU learning aims to train a binary classification model when only positive and unlabeled data is available to learn from. This problem setting arises commonly in practice. Often, PU data suffers from a labeling bias, where the labeled examples are a biased sample from the positive examples. The probability for a positive example to get selected to be labeled is called its propensity score. Weighting PU datasets using propensity scores, allows to learn an unbiased model from biased PU data. However, this method has a strong downside of being rather unstable. This paper proposes a robust method for learning from biased PU data based on bagging. We show that the proposed method remains unbiased, while it reduces the variance and hence increases robustness. Our experiments confirms this by showing that our method has lower variance and classification error than plain propensity weighting as well as another method that was proposed for variance reduction.}
 }
 
 @InProceedings{song22a,
@@ -87,7 +93,9 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/song22a/song22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/song22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/song22a.html},
+  abstract = {Imbalanced domains pose important challenges to learning systems and multiple resampling solutions have been put forward in the past two decades. More recently, it became clear that the imbalance problem arises in several other tasks including regression. Although several resampling solutions were proposed to tackle the imbalanced regression problem, with the emergence of big data this problem has become more difficult as these solutions become unfeasible due to the large volumes of data. 
+In this paper, we propose the first distributed resampling solution for imbalanced regression that is applicable to large amounts of data. Our algorithm, DistSMOGN, is a resampling solution based on SMOGN that addresses simultaneously the imbalanced regression problem and the challenge of dealing with high volumes of data. We apply Scalable KMeans++ as way to obtain coherent cluster that maintain the spatial relationships between the rare cases. Then, we apply the well-known SMOGN method in each cluster to obtain the new synthetic examples. This method allows to generate high quality synthetic examples while dealing with the large volumes of data. Our solution is based on the MapReduce paradigm and we propose an efficient implementation on Apache Spark. The experimental evaluation carried out shows the advantages of DistSMOGN. All the code implementing DistSMOGN is freely available and can be downloaded at https://github.com/ndao1104/distributed-resampling.}
 }
 
 
@@ -106,7 +114,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/vazquez22a/vazquez22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/vazquez22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/vazquez22a.html},
+  abstract = {Financial institutions have increasingly suffered pressure to implement better and faster fraud detection systems to minimize the cost of fraud. This issue has attracted attention from the literature over recent years. Despite the practical relevance, few works have considered label uncertainty in fraud detection. The incomplete label information naturally arises because fraudsters strive to go undetected. Most fraud detection systems operate by spending more resources to investigate only few suspicious cases and quickly process the rest as unsuspicious. That is, we only have positive label information of some fraudsters whereas the rest of the positives, together with legitimate non-fraudsters, remain unlabeled. This setting is referred to as learning from positive and unlabeled data, or PU learning. Besides the issue of undetected fraudsters, fraud detection is commonly regarded as a cost-sensitive classification task in which the misclassification cost can substantially vary between examples. Thus, this work introduces a novel technique that integrates PU learning and the instance-dependent cost-sensitive framework: PU-CSBoost. PU-CSBoost can directly minimize financial loss through an instance-dependent cost measure that also incorporates the misclassification cost due to hidden fraudsters. Our empirical analysis compares PU-CSBoost with CSBoost, its non-PU counterpart, and other PU techniques specialized in imbalanced learning. The experimental results emphasize the PU-CSBoost's potential to diminish financial losses under the PU setting. Moreover, the results suggest a quick drop in cost-sensitive performance by CSBoost when hidden fraudsters are present. Thus, ignoring the issue of hidden fraudsters can lead to an underwhelming performance in cost savings for techniques based on the cost-sensitive framework.}
 }
 
 
@@ -124,7 +133,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/shi22a/shi22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/shi22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/shi22a.html},
+  abstract = {Imbalanced data is ubiquitous in the real world, where there is an uneven distribution of classes in the datasets. Such class imbalance poses a major challenge for modern deep learning, even with the typical class-balanced approaches such as re-sampling and re-weighting. In this work, we introduced a simple training strategy, namely pre-finetuning, as a new intermediate training stage in between the pretrained model and finetuning. We leveraged the idea of data augmentation to learn an initial representation that better fits the imbalanced distribution of the domain task during the pre-finetuning stage. We tested our method on manually contrived imbalanced datasets (both two-class and multi-class) and the FDA drug labeling dataset for ADME (i.e., absorption, distribution, metabolism, and excretion) classification. We found that, compared with standard single-stage training (i.e., vanilla finetuning), our method consistently attains improved model performance by large margins. Our work demonstrated that pre-finetuning is a simple, yet effective, learning strategy for imbalanced data.}
 }
 
 
@@ -144,7 +154,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/junior22a/junior22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/junior22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/junior22a.html},
+  abstract = {Imbalanced datasets occur across industries, and many applications with high economical interest deal with them, such as fraud detection and churn prediction. Resampling is commonly used to overcome the tendency of machine learning algorithms to favor the majority class error minimization, while cost-sensitive algorithms are less used. In this paper, cost-sensitive algorithms (BayesMinimumRisk, Thresholding, Cost-Sensitive Decision Tree and Cost-Sensitive Random Forest) and resampling techniques (SMOTE, SMOTETomek and TomekLinks) combined with kNN, Decision Tree, Random Forest and AdaBoost were compared on binary classification problems. The results were analyzed with respect to relative performance over different imbalance ratios. The influence of these techniques for handling the class imbalance on the machine learning models complexities was also investigated. The experiments were performed using synthetic datasets and 90 real-world datasets.}
 }
 
 
@@ -163,7 +174,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/wojciechowski22a/wojciechowski22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/wojciechowski22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/wojciechowski22a.html},
+  abstract = {Although many methods have been proposed for dealing with class imbalance, the problem of multi-class imbalanced classification still received significantly smaller attention. This problem is particularly important in image imbalanced classification since it has many critical applications, e.g., in the medical domain. One group of effective methods for imbalanced data are oversampling algorithms; however, they are usually not designed to work with image data. The current methods also work in separation from the learning algorithm, not considering the difficulties encountered during the training.  In this work, we propose a new oversampling algorithm for neural networks that changes oversampled instances during training to further expand the decision region of minority classes, providing better recognition of minority classes. Experiments performed on various datasets with several configurations of class-imbalanced distributions demonstrate that the proposed method provides significant F-measure and G-mean improvements on imbalanced classification tasks.}
 }
 
 
@@ -182,7 +194,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/bonnier22a/bonnier22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/bonnier22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/bonnier22a.html},
+  abstract = {Ordinal classification aims to categorize instances into ordered classes. An underrated or overrated prediction can have significant impacts in applications such as credit rating. Ordinal approaches based on Machine Learning (ML) algorithms can be employed to capture nonlinear patterns. However, under conditions such as lack of training data, their generalization power can be adversely impacted. In this paper, we propose to experimentally assess the robustness of various ordinal classifiers, with a focus on risk rating tasks. We suggest two types of scenarios to evaluate robustness in Machine Learning: lack of training data and data distribution shift. We also propose the ordinal classifier chains, an extension of the multi-label classifier chains to ordinal tasks. It uses a lightweight bit layout to encode the labels and employs the chain of classifiers to form a connected structure. Using various evaluation metrics, we compare a selection of ML models under different robustness tests. The models are evaluated on a specific risk rating dataset with significant class imbalance. This benchmark offers a picture of which ML models might be more robust in various data contexts.}
 }
 
 
@@ -201,7 +214,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/rushe22a/rushe22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/rushe22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/rushe22a.html},
+  abstract = {Contextual novelty detection models detect novelties with respect to a given context. This is crucial in streaming scenarios where the definition of both normal and novel evolve over time. Such models however require contextual labels not only for training but also for detection during deployment. This creates an often unreasonable burden for additional contextual labels during the deployment of these models. In order to eliminate the need for these labels, we propose to predict this contextual information using an auxiliary prediction strategy which takes advantage of the rarity of novel examples, allowing these labels to instead be inferred.  The inferred labels are then used as a conditioning criterion for deep autoencoders. We evaluate our approach on a large, public industrial machine sound dataset and show that our approach can successfully recognise context and use this to effectively condition novelty detection models, allowing them to outperform their unconditioned counterparts.}
 }
 
 
@@ -221,7 +235,10 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/bauvin22a/bauvin22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/bauvin22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/bauvin22a.html},
+  abstract = {	SuMMIT (Supervised Multi Modal Integration Tool) is a software offering many functionalities for running, tuning, and analyzing experiments of supervised classification tasks specifically designed for multi-view data sets. SuMMIT is part of a platform that aggregates multiple tools to deal with multiview datasets such as scikit-multimodallearn (Benielli et al., 2021) or MAGE (Bauvin et al., 2021).
+	This paper presents use cases of SuMMIT, including hyper-parameters optimization, demonstrating the usefulness of such a platform for dealing with the complexity of multi-view benchmarking on an imbalanced dataset. 
+	SuMMIT is powered by Python3 and based on scikit-learn, making it easy to use and extend by plugging one's own specific algorithms, score functions or adding new features. By using continuous integration, we encourage collaborative development.}
 }
 
 
@@ -240,7 +257,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/agostinho22a/agostinho22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/agostinho22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/agostinho22a.html},
+  abstract ={In machine learning, imbalanced data has been one of the most relevant issue that the classifiers have to deal with. The most  common techniques applied in this scenario are all, somehow, based on oversampling or under sampling concepts, In the former, the number of instances of minority classes are, somehow, increased while in the latter, the number of instances in the majority classes are somehow reduced. By increasing Pre-processing, approaches as the ones described have been well succeeded in binary classification problems.However, as the larger the number of classes, less effective the pre-processing approaches are. Another related problem is that the metrics that evaluate the predictive performance of the classifiers can be not effective in the presence of imbalanced data. The metrics used to measure the predictive performance of classifiers, can be divided into three groups: threshold, ranking and Probabilistic metrics. This paper aimed to purpose a probabilistic metric with the main objective of, given the results of a classifier in a multi-class domain,  verify the relation between these result and the imbalance problem. The main purpose of this work, is to build a probabilistic metric based on non-parametric approaches, to measure the effect of imbalance feature of dataset in multi-class problems. As part of the work, a comparison with the existing metrics will be implemented and analyzed, both to understand the relation between them and to choose the best of them according to each scenario.}
 }
 
 
@@ -259,7 +277,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/bouayed22a/bouayed22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/bouayed22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/bouayed22a.html},
+  abstract = {Recently, a general analytical formula to extract all the Rotation Invariant Features (RIFs) of the diffusion Magnetic Resonance Imaging (dMRI) signal was proposed. The features extracted using this formula represent a generalisation of the usual second degree RIFs such as the mean diffusivity. In this work, we study the usefulness of all the 12 algebraically independent RIFs extracted from 4th degree spherical harmonics that model the dMRI signal per voxel in the context of Alzheimer Disease (AD) identification. To do so, and since we are working with imbalanced data sets, we first introduce a non-linear metric to evaluate the performance of the models, the (B-score). This proposed metric allows high score only when both classes are distinguished correctly. We use the proposed metric in conjunction with a deep Convolutional Neural Network that operates on subject slices to identify if a subject has AD or not. We find that micro-structure information communicated by RIFs is indeed useful to AD identification and that not all RIFs are equivalently useful. We also identify the two best RIF combinations for the ADNI - SIEMENS and the ADNI - GE medical data sets respectively. The combination of these RIFs achieves a classification B-score of 73.62\% and 72.31\% on the previous data sets respectively. We note the importance of combining high degree RIFs with low degree ones to improve the classification performance.}
 }
 
 
@@ -277,7 +296,11 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/komorniczak22a/komorniczak22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/komorniczak22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/komorniczak22a.html},
+  abstract = {Purpose: This work proposes the hypothesis that data oversampling may lead to dataset simplification according to selected data difficulty metrics and that such simplification positively affects the quality of selected classifier learning methods.
+Methods: A set of computer experiments was performed for 47 benchmark datasets to make the hypothesis plausible. The experiments considered five oversampling methods, five classifiers, and 22 metrics for data difficulty assessment. The experiments aim to establish: (a) whether there is a relationship between resampling and change in the difficulty of the training data and (b) whether there is a relationship between changes in the values of training set difficulty metrics and classification quality. 
+Results: Based on the obtained results, the research hypothesis was confirmed. It was indicated which measures correlate with selected classifiers. The experiments showed the relationship between the change of assessed difficulty measures after oversampling and the classification quality of selected models.
+Conclusion: The obtained results allow using the selected measures to predict whether a given oversampling method leads to favorable modifications of the learning set for a given type of classifier. Showed relationship between difficulty measures and classification will allow using the mentioned measures as a learning criterion. For example, guided oversampling can treat the modification of the learning set as an optimization task. During the oversampling process, no estimation of classification quality metrics will be required, but only an evaluation of the training set difficulty. This may contribute to the proposition of computationally efficient methods.}
 }
 
 
@@ -296,7 +319,8 @@ address =  {ECML-PKDD, Grenoble, France},
   month = 	 {19--23 Sept},
   publisher = 	{PMLR},
   pdf = 	 {http://proceedings.mlr.press/v183/lipska22a/lipska22a.pdf},
-  url = 	 {http://proceedings.mlr.press/v183/lipska22a.html}
+  url = 	 {http://proceedings.mlr.press/v183/lipska22a.html},
+  abstract = 	 {This work is aimed at examining the influence of  local data characteristics and drifts on the difficulties of learning online classifiers from multi-class imbalanced data streams. The results of many experiments with synthetically generated data streams have shown a much greater role of the overlapping between many minority classes (the type of borderline examples)  than for streams with one minority class. The presence of rare examples in the stream is the most difficult single factor. Unlike binary streams, the specialized UOB and OOB classifiers perform well enough for even high imbalance ratios. The most challenging for all classifiers are complex scenarios integrating many drifts and factors  simultaneously, which worsen the evaluation measures stronger than for binary ones.}
 }
 
 

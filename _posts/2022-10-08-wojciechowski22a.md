@@ -3,6 +3,7 @@ title: Adversarial oversampling for multi-class imbalanced data classification w
   convolutional neural networks
 booktitle: 'Proceedings of the Fourth International Workshop on Learning with Imbalanced
   Domains: Theory and Applications (LIDTA 2022)'
+abstract: Although many methods have been proposed for dealing with class imbalance, the problem of multi-class imbalanced classification still received significantly smaller attention. This problem is particularly important in image imbalanced classification since it has many critical applications, e.g., in the medical domain. One group of effective methods for imbalanced data are oversampling algorithms; however, they are usually not designed to work with image data. The current methods also work in separation from the learning algorithm, not considering the difficulties encountered during the training.  In this work, we propose a new oversampling algorithm for neural networks that changes oversampled instances during training to further expand the decision region of minority classes, providing better recognition of minority classes. Experiments performed on various datasets with several configurations of class-imbalanced distributions demonstrate that the proposed method provides significant F-measure and G-mean improvements on imbalanced classification tasks.
 year: '2022'
 section: Long Papers
 volume: '183'
